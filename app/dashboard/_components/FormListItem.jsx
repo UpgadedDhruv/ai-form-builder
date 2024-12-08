@@ -77,7 +77,7 @@ function FormListItem({formRecord,jsonForm,refreshData}) {
         <RWebShare
         data={{
           text: jsonForm?.formHeading+" , Build your form in seconds with AI form Builder ",
-          url: process.env.NEXT_PUBLIC_BASE_URL+"/aiform/"+formRecord?.id,
+          url: "https://ai-form-builder-indol.vercel.app"+"/aiform/"+formRecord?.id,
           title: jsonForm?.formTitle,
         }}
         onClick={() => console.log("shared successfully!")}
