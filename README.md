@@ -1,41 +1,31 @@
+AI Form Builder is a dynamic and intelligent form-building SaaS application designed to create, customize, and deploy forms effortlessly. Built with cutting-edge technologies, this project leverages AI to simplify form generation while offering seamless integration and deployment.
 
-![AI Form Builder](https://github.com/rrs301/ai-form-builder/assets/20216436/6e2c0c9c-ea16-4eeb-9901-7d8c971415ce)
+Features
 
-https://youtu.be/s28yOCBVgGw
+1. AI-Powered Form Generation: Leverage the power of Gemini API to dynamically create forms based on user input.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+2. User-Friendly Interface: Build and customize forms with a responsive and intuitive UI designed using TailwindCSS and DaisyUI.
 
-## Getting Started
+3. Secure Authentication: Integrated with Clerk for hassle-free user management and authentication.
 
-First, run the development server:
+4. Seamless Payments: Supports payments through Stripe for monetization.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+5. Database Management: Utilizes PostgreSQL with DrizzleORM for efficient and scalable data handling.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+6. Rapid Deployment: Easily deploy and manage your application with Vercel.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Tech Stack
 
-## Learn More
+1. Frontend: React, Next.js, TailwindCSS, DaisyUI
 
-To learn more about Next.js, take a look at the following resources:
+2. Backend: DrizzleORM, PostgreSQL, Gemini API
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Authentication: Clerk
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. Payment Integration: Stripe
+
+5. Deployment: Vercel
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
