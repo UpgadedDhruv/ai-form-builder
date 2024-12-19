@@ -1,6 +1,6 @@
 AI Form Builder is a dynamic and intelligent form-building SaaS application designed to create, customize, and deploy forms effortlessly. Built with cutting-edge technologies, this project leverages AI to simplify form generation while offering seamless integration and deployment.
 
-Features
+#Features
 
 1. AI-Powered Form Generation: Leverage the power of Gemini API to dynamically create forms based on user input.
 
@@ -15,7 +15,7 @@ Features
 6. Rapid Deployment: Easily deploy and manage your application with Vercel.
 
 
-Tech Stack
+#Tech Stack
 
 1. Frontend: React, Next.js, TailwindCSS, DaisyUI
 
